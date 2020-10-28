@@ -1,0 +1,57 @@
+/*header_top*/
+.header_top {
+  height: 80px;
+}
+.menu {
+  display: inline-block;
+  line-height: 80px;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  text-decoration: none;
+}
+/*header_bottom*/
+.header_bottom {
+  height: 500px;
+  background-color: blue;
+}
+/*main_top*/
+.main_top {
+  height: 500px;
+  background-color: #F3F5F9;
+}
+/*main_deploy*/
+.main_deploy {
+  height: 500px;
+}
+/*main_designed*/
+.main_designed {
+  height: 500px;
+  background-color: #F3F5F9;
+}
+/*main_business*/
+.main_business {
+  height: 500px;
+}
+/*main_services*/
+.main_services {
+  height: 500px;
+  background-color: blue;
+}
+/*main_teams*/
+.main_teams {
+  height: 500px;
+  background-color: #F3F5F9;
+}
+/*main_start*/
+.main_start {
+  height: 300px;
+  background-color: lightblue;
+}
+/*Footer*/
+footer {
+  height: 500px;
+  background-color: blue;
+}
