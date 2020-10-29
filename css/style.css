@@ -1,10 +1,14 @@
-
 .nav {
   font-size: 16px;
   font-weight: 600;
 }
 .text {
   font-size: 22px;
+  color: grey;
+}
+.wrapper_80 {
+  width: 80%;
+  margin: 0 auto;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -21,9 +25,6 @@ h3 {
 h5 {
   font-family: 'Montserrat', sans-serif;
 }
-
-
-
 
 /*header_top*/
 .header_top {
@@ -90,9 +91,6 @@ h5 {
    color: white;
    padding-top: 40px;
    font-weight: 700;
- }
- .header_bottom .text {
-   color: lightgrey;
  }
 
  .box_input {
@@ -175,11 +173,49 @@ h5 {
 .main_deploy {
   height: 500px;
 }
+.main_deploy h3 {
+  margin-top: 80px;
+  font-size: 30px;
+  color: #031B4E;
+}
+
 /*main_designed*/
 .main_designed {
-  height: 500px;
   background-color: #F3F5F9;
+  text-align: center;
 }
+.main_designed h3 {
+  margin-top: 80px;
+  font-size: 30px;
+  color: #031B4E;
+  margin-bottom: 30px;
+}
+.img_dropset {
+  width: 55%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+.img_dropset img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.main_designed .compute {
+  font-size: 16px;
+  color: #031B4E;
+}
+.dot {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 1px solid #0069FF;
+}
+.first {
+  background-color: #0069FF;
+}
+
 /*main_business*/
 .main_business {
   height: 500px;
