@@ -9,6 +9,7 @@
 .wrapper_70 {
   width: 70%;
   margin: 0 auto;
+  margin-top: 40px;
 }
 h1 {
   font-family: 'Montserrat', sans-serif;
@@ -185,7 +186,7 @@ h5 {
 }
 /*main_deploy*/
 .main_deploy {
-  height: 500px;
+  padding-bottom: 60px;
 }
 .main_deploy h3 {
   margin-top: 80px;
@@ -196,9 +197,11 @@ h5 {
   border-left: 1px solid gray;
 }
 .line_menu a{
+  font-size: 16px;
   margin-left: 10px;
   display: block;
   margin-top: 20px;
+  color: gray;
 }
 
 /*main_designed*/
