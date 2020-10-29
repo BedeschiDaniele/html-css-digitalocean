@@ -6,8 +6,8 @@
   font-size: 22px;
   color: grey;
 }
-.wrapper_80 {
-  width: 80%;
+.wrapper_70 {
+  width: 70%;
   margin: 0 auto;
 }
 h1 {
@@ -192,7 +192,12 @@ h5 {
   font-size: 30px;
   color: #031B4E;
 }
-.main_deploy span{
+.line_menu {
+  border-left: 1px solid gray;
+}
+.line_menu a{
+  margin-left: 10px;
+  display: block;
   margin-top: 20px;
 }
 
