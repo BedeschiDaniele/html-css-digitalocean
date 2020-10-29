@@ -211,6 +211,7 @@ h5 {
 }
 
 .img_dropset {
+  position: relative;
   width: 55%;
   margin: 0 auto;
   padding-top: 50px;
@@ -218,6 +219,18 @@ h5 {
 .img_dropset img {
   width: 100%;
   margin-bottom: 30px;
+}
+.main_designed .angle_left {
+  position: absolute;
+  top: 45%;
+  left: -45px;
+  font-size: 50px;
+}
+.main_designed .angle_right {
+  position: absolute;
+  top: 45%;
+  right: -45px;
+  font-size: 50px;
 }
 .main_designed .compute {
   font-size: 16px;
@@ -288,6 +301,21 @@ h5 {
 .main_teams {
   background-color: #F3F5F9;
   text-align: center;
+}
+.img_dropset {
+  position: relative;
+}
+.main_teams .angle_left {
+  position: absolute;
+  top: 45%;
+  left: -45px;
+  font-size: 50px;
+}
+.main_teams .angle_right {
+  position: absolute;
+  top: 45%;
+  right: -45px;
+  font-size: 50px;
 }
 
 
