@@ -25,6 +25,16 @@ h3 {
 h5 {
   font-family: 'Montserrat', sans-serif;
 }
+.title3 {
+  margin-top: 80px;
+  font-size: 30px;
+  color: #031B4E;
+  margin-bottom: 30px;
+}
+.title5 {
+  margin-top: 20px;
+  font-size: 18px;
+}
 
 /*header_top*/
 .header_top {
@@ -184,12 +194,7 @@ h5 {
   background-color: #F3F5F9;
   text-align: center;
 }
-.main_designed h3 {
-  margin-top: 80px;
-  font-size: 30px;
-  color: #031B4E;
-  margin-bottom: 30px;
-}
+
 .img_dropset {
   width: 55%;
   margin: 0 auto;
@@ -205,7 +210,7 @@ h5 {
 }
 .dot {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   height: 12px;
   width: 12px;
   border-radius: 50%;
@@ -218,8 +223,17 @@ h5 {
 
 /*main_business*/
 .main_business {
-  height: 500px;
+  margin-bottom: 80px;
 }
+.main_business p {
+  color: gray;
+  font-weight: 600;
+}
+.main_business a {
+  font-weight: 600;
+  color: #1667FF;
+}
+
 /*main_services*/
 .main_services {
   height: 500px;
