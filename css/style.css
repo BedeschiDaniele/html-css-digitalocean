@@ -179,6 +179,10 @@ h5 {
   font-weight: 600;
   margin-bottom: 30px;
 }
+.main_top a {
+  font-weight: 600;
+  color: #1667FF;
+}
 /*main_deploy*/
 .main_deploy {
   height: 500px;
@@ -236,9 +240,41 @@ h5 {
 
 /*main_services*/
 .main_services {
-  height: 500px;
   background-color: blue;
+  padding-bottom: 60px;
 }
+.main_services .title3 {
+  color: white;
+}
+.main_services span {
+  margin-left: 15px;
+  color: white;
+}
+.test_speed {
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-bottom: 1px solid white;
+}
+.test_speed:last-child {
+  border-bottom: 0px;
+}
+.test_speed .city{
+  margin-left: 50px;
+  font-weight: 600;
+  color: #9EA6BA;
+}
+.a_right {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+}
+.test_speed a {
+  font-weight: 600;
+  color: #01d7d6;
+}
+
+
 /*main_teams*/
 .main_teams {
   height: 500px;
