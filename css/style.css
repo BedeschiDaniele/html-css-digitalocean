@@ -36,27 +36,48 @@ h5 {
   margin-top: 20px;
   font-size: 18px;
 }
+.angle_left {
+  position: absolute;
+  top: 45%;
+  left: -45px;
+  font-size: 50px;
+  color: #838FA9;
+}
+.angle_right {
+  position: absolute;
+  top: 45%;
+  right: -45px;
+  font-size: 50px;
+}
 
 /*header_top*/
 .header_top {
   height: 50px;
+  margin-bottom:10px;
   line-height: 50px;
 }
 .header_top .container {
   height: 50px;
 }
+.logo_header {
+  display: inline-block;
+}
 #logo {
+  height: 40px;
+}
+#text_logo {
   font-size: 24px;
   color: #005DFF;
   font-weight: 600;
   line-height: 10px;
+  display: inline-block;
 }
 .header_top .row {
   height: 100%;
 }
 .header_top [class*='col-'] {
   height: 100%;
-  line-height: 50px;
+  line-height: 60px;
 }
 .list_inline {
   display: inline-block;
@@ -197,7 +218,7 @@ h5 {
   border-left: 1px solid gray;
 }
 .line_menu a{
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 10px;
   display: block;
   margin-top: 20px;
@@ -220,18 +241,7 @@ h5 {
   width: 100%;
   margin-bottom: 30px;
 }
-.main_designed .angle_left {
-  position: absolute;
-  top: 45%;
-  left: -45px;
-  font-size: 50px;
-}
-.main_designed .angle_right {
-  position: absolute;
-  top: 45%;
-  right: -45px;
-  font-size: 50px;
-}
+
 .main_designed .compute {
   font-size: 16px;
   color: #031B4E;
@@ -304,6 +314,7 @@ h5 {
 }
 .img_dropset {
   position: relative;
+  margin-top: 100px;
 }
 .main_teams .angle_left {
   position: absolute;
@@ -316,6 +327,36 @@ h5 {
   top: 45%;
   right: -45px;
   font-size: 50px;
+}
+.main_teams .img_dropset {
+  background-color: white;
+  height: 405px;
+}
+#rocker {
+  height: 40px;
+  width: 350px;
+  margin-top: 40px;
+}
+.main_teams p {
+  font-size: 24px;
+  color: gray;
+}
+.main_teams span {
+  font-size: 18px;
+}
+.main_teams #founder {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.main_teams a {
+  font-weight: 600;
+  font-size: 16px;
+  color: #1667FF;
+}
+.dots {
+  margin-top: 30px;
 }
 
 
@@ -368,4 +409,33 @@ footer span {
 }
 .footer_menu a {
   color: hsla(0,0%,100%,0.5);
+}
+
+@media screen and (max-width: 991px) {
+  .wrapper_70 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  .dim {
+    margin-top: 20px;
+  }
+  .test_speed:last-child {
+    margin-bottom: 30px;
+  }
+  .footer_menu ul {
+    padding-inline-start: 0px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .servers {
+    margin-bottom: 50px;
+  }
+  .test_speed:last-child {
+    margin-bottom: 30px;
+  }
+  .footer_menu ul {
+    padding-inline-start: 0px;
+  }
 }

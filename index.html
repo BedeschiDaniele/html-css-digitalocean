@@ -20,13 +20,16 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-10 col-md-11 col-lg-3">
-              <h1 id="logo">DigitalOcean</h1>
+              <div class="logo_header">
+                <img id="logo"src="img/digitalocean-logo.svg" alt="logo">
+              </div>
+              <h1 id="text_logo">DigitalOcean</h1>
             </div>
             <div class="col-xs-2 col-md-1 col-lg-5">
-              <a href="#" class="visible-xs-inline-block visible-md-inline-block " id="hambuger_icon">
+              <a href="#" class="visible-xs-inline-block visible-sm-inline-block visible-md-inline-block " id="hambuger_icon">
                 <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
               </a>
-              <ul class="list_inline hidden-xs hidden-md">
+              <ul class="list_inline hidden-xs hidden-sm hidden-md">
                 <li><a class="nav" href="#">Products<i class="fas fa-angle-down"></i></a></li>
                 <li><a class="nav" href="#">Customers</a></li>
                 <li><a class="nav" href="#">Community<i class="fas fa-angle-down"></i></a></li>
@@ -34,7 +37,7 @@
               </ul>
             </div>
             <div class="col-lg-4 text-right">
-              <ul class="list_inline hidden-xs hidden-md">
+              <ul class="list_inline hidden-xs hidden-sm hidden-md">
                 <li><a class="nav" href="#">Docs</a></li>
                 <li><a class="nav" href="#">Support<i class="fas fa-angle-down"></i></a></li>
                 <li><a class="nav" href="#">Login</a></li>
@@ -147,24 +150,24 @@
               <div class="col-xs-12 col-md-10 col-lg-10">
                 <div class="row">
                   <div class="col-xs-12 col-md-6 col-lg-6">
-                    <img src="img/kublogo.svg" alt="">
+                    <img class="dim" src="img/kublogo.svg" alt="">
                     <h5 class="title5"><strong>Kubernetes in minutes</strong></h5>
                     <p>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and location of your worker nodes.</p>
                   </div>
                   <div class="col-xs-12 col-md-6 col-lg-6">
-                    <img src="img/drop.svg" alt="">
+                    <img class="dim" src="img/drop.svg" alt="">
                     <h5 class="title5"><strong>Flexible compute types</strong></h5>
                     <p>With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can choose the right infrastructure for your workload.</p>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-xs-12 col-md-6 col-lg-6 ">
-                    <img src="img/featured.svg" alt="">
+                    <img class="dim" src="img/featured.svg" alt="">
                     <h5 class="title5"><strong>App Platform</strong></h5>
                     <p>Build, deploy, and scale apps quickly using a simple, fully managed solution. We’ll handle the infrastructure, app runtimes, and dependencies, so that you can push code to production in just a few clicks.</p>
                   </div>
                   <div class="col-xs-12 col-md-6 col-lg-6">
-                    <img src="img/stack.svg" alt="">
+                    <img class="dim" src="img/stack.svg" alt="">
                     <h5 class="title5"><strong>1-Click App Marketplace</strong></h5>
                     <p>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP, Docker, and WordPress.</p>
                   </div>
@@ -188,7 +191,9 @@
               <i class="fas fa-angle-right"></i>
             </div>
           </div>
-          <span class="compute"><b>Create a compute servers in 55 seconds or less.</b></span><br>
+          <div class="servers">
+            <span class="compute"><b>Create a compute servers in 55 seconds or less.</b></span>
+          </div>
           <span class="dot first"></span>
           <span class="dot"></span>
           <span class="dot"></span>
@@ -204,19 +209,19 @@
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-4 col-lg-4">
-              <img src="img/icon-task.svg" alt="">
+              <img class="dim" src="img/icon-task.svg" alt="">
               <h5 class="title5"><strong>Predictable pricing</strong></h5>
               <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
               <a href="#">Pricing ></a>
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4">
-              <img src="img/icon-headphones.svg" alt="">
+              <img class="dim" src="img/icon-headphones.svg" alt="">
               <h5 class="title5"><strong>World-class service</strong></h5>
               <p>Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
               <a href="#">Support ></a>
             </div>
             <div class="col-xs-12 col-md-4 col-lg-4">
-              <img src="img/icon-check.svg" alt="">
+              <img class="dim" src="img/icon-check.svg" alt="">
               <h5 class="title5"><strong>Reliable platform</strong></h5>
               <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
               <a href="#">Security ></a>
@@ -325,7 +330,11 @@
         <div class="container">
           <h3 class="title3">Development teams love DigitalOcean</h3>
           <div class="img_dropset">
-            <img src="img/dropset.jpg" alt="">
+            <img id="rocker" src="img/rocker.png" alt="rocker">
+            <p>"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
+            <span><strong>Rick O'Toole</strong></span>
+            <span id="founder">Co-founder and CTO</span>
+            <a href="#">Read story ></a>
             <div class="angle_left">
               <i class="fas fa-angle-left"></i>
             </div>
@@ -333,11 +342,12 @@
               <i class="fas fa-angle-right"></i>
             </div>
           </div>
-          <span class="dot first"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+          <div class="dots">
+            <span class="dot first"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
           </div>
+        </div>
         </div>
       </section>
       <!-- main_start-->
