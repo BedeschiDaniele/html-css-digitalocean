@@ -334,6 +334,38 @@ h5 {
 }
 /*Footer*/
 footer {
-  height: 500px;
-  background-color: blue;
+  background-color: #010E28;
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+footer .logo {
+  margin-bottom: 10px;
+}
+footer span {
+  display: block;
+  color: lightgrey;
+}
+#made {
+  color: hsla(0,0%,100%,0.5);
+}
+.social_icon {
+  margin-top: 10px;
+}
+.social_icon a {
+  font-size: 22px;
+  margin-right: 8px;
+  color: hsla(0,0%,100%,0.5);
+}
+.footer_menu ul {
+    list-style-type: none;
+}
+.footer_menu li {
+  margin-top: 10px;
+}
+.footer_menu li:first-child {
+  font-size: 18px;
+  color: white;
+}
+.footer_menu a {
+  color: hsla(0,0%,100%,0.5);
 }
